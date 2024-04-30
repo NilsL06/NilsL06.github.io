@@ -6,38 +6,40 @@
     <title>Webbshop</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <nav class="navbar">
-      <div class="nav">
+    <nav class="navbar"></nav>
+
+    <!-- hero section-->
+    <header class="hero-section">
+      <div class="content">
         <img
           src="img/Mountain-logo-Design-Graphics-9785421-1-1-580x435.png"
-          class="brand-logo"
-          alt="The brands logo"
+          class="logo"
+          alt="Site logo"
         />
-        <div class="nav-items">
-          <div class="search">
-            <input
-              type="text"
-              class="search-box"
-              placeholder="search brand, product"
+        <p class="sub-heading">Best "product/name of selling thing"</p>
+      </div>
+    </header>
+
+    <!-- cards-container -->
+    <section class="product">
+      <h2 class="product-category">Best Selling!</h2>
+      <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">number% off</span>
+            <img
+              src="img/card.png"
+              class="product-thumb"
+              alt="card picture of product"
             />
-            <button class="search-btn">search</button>
+            <button class="card-btn">add to wishlist</button>
           </div>
-          <a href="#"><img src="img/1077114.png" alt="user-pic" /></a>
-          <a href="#"
-            ><img
-              src="img/15bb559cdd28f56d7c17b00498b4a946.png"
-              alt="shopping-cart"
-          /></a>
         </div>
       </div>
-      <ul class="links-container">
-        <li class="link-item"><a href="#" class="link">home</a></li>
-        <li class="link-item"><a href="#" class="link">women</a></li>
-        <li class="link-item"><a href="#" class="link">men</a></li>
-        <li class="link-item"><a href="#" class="link">kids</a></li>
-        <li class="link-item"><a href="#" class="link">accessories</a></li>
-      </ul>
-    </nav>
+    </section>
+
+    <script src="js/nav.js"></script>
   </body>
 </html>
