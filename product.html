@@ -9,9 +9,15 @@
     <link rel="stylesheet" href="css/product.css" />
   </head>
   <body>
+    <!--This gives us the navbar, chose to do it this way so it was easier to add in the navbar on every dfferent file.
+    The code for the navbar is in nav.js -->
     <nav class="navbar"></nav>
 
-    <!--Product-details -->
+    <!--Product-details. This is the product preview you see. You can click through the different pictures.
+        The first picture is the active one and the one which initially shows on the screen. 
+        Change the picture files and the picture will be different. 
+        Had to get alot of help from the internet here so i cant really motivate how i did this part.
+        You can change the Brand, description, price etc all below the images.  -->
     <section class="product-details">
       <div class="image-slider">
         <div class="product-images">
@@ -30,6 +36,10 @@
         <span class="product-actual-price">$30</span>
         <span class="product-discount">( 50% off )</span>
 
+        <!--This part is for the Size selection part. You can change what type of different sizes exist here down at the hidden-id.
+            Dont really know how this part works, i used the web to do this part because i had never done anything like this before.
+            But i tried learning it and have a small understanding of it know. 
+            The input type="radio" means that it will be some kind of circle that will need to be selected. -->
         <p class="product-sub-heading">select size</p>
 
         <input
@@ -55,6 +65,7 @@
       </div>
     </section>
 
+    <!--This part is just the description of the item. Write the description of the item you're selling here-->
     <section class="detail-des">
       <h2 class="heading">description</h2>
       <p class="des">
@@ -94,7 +105,13 @@
       </p>
     </section>
 
-    <!-- cards-container -->
+    <!-- cards-container. This is the cards you see and that you can swipe through on the website. 
+        Each and every picture can be changed by changing the picture at the img element.
+        DONT CHANGE THE ARROWS THOUGH! THEY ARE USED IF THE USER CANT SWIPE THROUGH!
+        You can change the price, the % off on the item, the brand, the description of the item all under the product container.
+        Im using the elements i felt was most fitting for the position and sizing and importancy of the text. 
+        I used this because if wanted one of the first things to be seen to be 
+        the top selling things because that obviously going to be the most popular things which will sell the most-->
     <section class="product">
       <h2 class="product-category">Shirts</h2>
       <button class="pre-btn"><img src="img/arrow.png" alt="arrow" /></button>
@@ -231,7 +248,13 @@
       </div>
     </section>
 
-    <!-- cards-container -->
+    <!-- cards-container. This is the cards you see and that you can swipe through on the website. 
+        Each and every picture can be changed by changing the picture at the img element.
+        DONT CHANGE THE ARROWS THOUGH! THEY ARE USED IF THE USER CANT SWIPE THROUGH!
+        You can change the price, the % off on the item, the brand, the description of the item all under the product container.
+        Im using the elements i felt was most fitting for the position and sizing and importancy of the text. 
+        I used this because if wanted one of the first things to be seen to be 
+        the top selling things because that obviously going to be the most popular things which will sell the most-->
     <section class="product">
       <h2 class="product-category">Shoes</h2>
       <button class="pre-btn"><img src="img/arrow.png" alt="arrow" /></button>
@@ -368,6 +391,8 @@
       </div>
     </section>
 
+    <!--Gives us the footer, code for the footer is in the footer.js file.
+        I did this so i easily could put a footer on every site! -->
     <footer></footer>
 
     <script src="js/nav.js"></script>
