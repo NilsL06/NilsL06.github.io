@@ -1,3 +1,4 @@
+// This makes it so you can click through the pictures on the product page
 const productImages = document.querySelectorAll(".product-images img");
 const productImageSlide = document.querySelector(".image-slider");
 
@@ -12,7 +13,7 @@ productImages.forEach((item, i) => {
   });
 });
 
-// toggle size buttons
+// This is for the size buttons so it shows which one is selected
 
 const sizeBtns = document.querySelectorAll(".size-radio-btn");
 let checkedBtn = 0;

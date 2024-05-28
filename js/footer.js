@@ -1,3 +1,4 @@
+// Creating the footer function so i can easily add it in every file //
 const createFooter = () => {
   let footer = document.querySelector("footer");
 

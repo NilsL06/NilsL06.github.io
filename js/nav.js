@@ -1,3 +1,4 @@
+// This creates the navbar function and makes it so i easily can add in the navbar in every file without having to copy and paste all the code
 const createNav = () => {
   let nav = document.querySelector(".navbar");
 
